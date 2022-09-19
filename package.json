@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jake's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "watch": "browser-sync start --server --files \"css/*.css, *.html\"",
+    "build": "css-minify -f app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakebogan01/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Jake Bogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakebogan01/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jakebogan01/Portfolio#readme"
+}
