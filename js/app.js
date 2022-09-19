@@ -25,9 +25,37 @@ if (isTouchDevice()) {
   var header = $('.js-header'),
       burger = header.find('.js-header-burger'),
       wrapper = header.find('.js-header-wrapper'),
+      about = header.find('.js-header-about'),
+      skills = header.find('.js-header-skills'),
+      projects = header.find('.js-header-projects'),
+      contact = header.find('.js-header-contact'),
       html = $('html'),
       body = $('body');
   burger.on('click', function () {
+    burger.toggleClass('active');
+    wrapper.toggleClass('visible');
+    html.toggleClass('no-scroll');
+    body.toggleClass('no-scroll');
+  });
+  about.on('click', function () {
+    burger.toggleClass('active');
+    wrapper.toggleClass('visible');
+    html.toggleClass('no-scroll');
+    body.toggleClass('no-scroll');
+  });
+  skills.on('click', function () {
+    burger.toggleClass('active');
+    wrapper.toggleClass('visible');
+    html.toggleClass('no-scroll');
+    body.toggleClass('no-scroll');
+  });
+  projects.on('click', function () {
+    burger.toggleClass('active');
+    wrapper.toggleClass('visible');
+    html.toggleClass('no-scroll');
+    body.toggleClass('no-scroll');
+  });
+  contact.on('click', function () {
     burger.toggleClass('active');
     wrapper.toggleClass('visible');
     html.toggleClass('no-scroll');
@@ -233,17 +261,4 @@ AOS.init(); // parallax effect
       });
     });
   }
-})(); // scroll to section
-
-
-(function () {
-  var btn = $('.js-scroll');
-  btn.click(function () {
-    $("html, body").animate({
-      scrollTop: $($(this).attr("href")).offset().top + "px"
-    }, {
-      duration: 1000
-    });
-    return false;
-  });
 })();
