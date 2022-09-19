@@ -3691,16 +3691,16 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   display: flex;
   align-items: flex-start;
   max-width: 970px;
-  margin: 0 auto 112px; }
+  margin: 0 auto; }
   @media only screen and (max-width: 1279px) {
     .product__row {
       max-width: 713px;
-      margin-bottom: 88px; } }
+       } }
   @media only screen and (max-width: 767px) {
     .product__row {
       display: block;
       max-width: 100%;
-      margin-bottom: 48px; } }
+       } }
 
 .product__overview {
   flex-shrink: 0;
