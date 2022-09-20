@@ -1683,6 +1683,12 @@ a.btn {
       .main__view .main__animation {
         transform: scale(0.594) translateY(465px) translateX(-240px) !important;
       }
+      .figures__animation {
+        display: none;
+      }
+      .work__figures .work__animation {
+        display: none;
+      }
     }
     .main__view[data-aos] .main__preview {
       transform: translateY(40px);
@@ -1724,6 +1730,17 @@ a.btn {
   width: 997px;
   height: 994px;
   transform: scale(0.9) translateY(74px) translateX(170px);
+  transform-origin: top;
+  transition: all 0.3s !important;
+}
+.figures__animation {
+  position: relative;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 724px;
+  height: 486px;
+  transform: scale(0.9) translateY(-115px) translateX(425px);
   transform-origin: top;
   transition: all 0.3s !important;
 }
@@ -1782,6 +1799,9 @@ a.btn {
         }
         .work__figures .work__animation {
           transform: scale(0.7) translateY(11px) translateX(211px);
+        }
+        .figures__animation {
+          transform: scale(0.9) translateY(-115px) translateX(166px);
         }
       }
       @media only screen and (max-width: 1023px) {
@@ -2373,7 +2393,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
       padding: 143px 0; } }
   @media only screen and (max-width: 767px) {
     .work {
-      padding: 56px 0 475px;
+      padding: 70px 0 70px;
       overflow: hidden; } }
   .work__circles {
     position: absolute;
@@ -3505,6 +3525,9 @@ body:not(.touch-device) .owl-item:hover .details__preview {
       .work__figures .work__animation {
         transform: scale(0.6) translateY(96px) translateX(285px);
       }
+      .figures__animation {
+        transform: scale(0.8) translateY(-115px) translateX(166px);
+      }
     }
     @media only screen and (max-width: 767px) {
       .footer__wrap {
@@ -3535,12 +3558,10 @@ body:not(.touch-device) .owl-item:hover .details__preview {
       .work__figures .work__animation {
         transform: scale(0.5) translateY(802px) translateX(197px);
       }
+      .figures__animation {
+        transform: scale(0.5) translateY(-115px) translateX(-582px);
+      }
     }
-@media only screen and (max-width: 450px) {
-  .work__figures .work__animation {
-    transform: scale(0.37) translateY(1272px) translateX(234px);
-  }
-}
   .footer__info {
     color: #FFBDBD; }
     @media only screen and (max-width: 1279px) {
@@ -3762,7 +3783,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   width: 100%; }
 
 .product__body {
-  padding: 114px 0 128px; }
+  padding: 128px 0 128px; }
   @media only screen and (max-width: 1279px) {
     .product__body {
       padding: 88px 0; } }

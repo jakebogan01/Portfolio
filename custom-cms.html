@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JP - Custom CMS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Jake's portfolio">
+    <meta property="og:title" content="Jake's Portfolio">
+    <meta property="og:type" content="Article">
+    <meta property="og:url" content="https://www.jakebogan.dev">
+    <meta property="og:image" content="https://ui8-folio.herokuapp.com/img/fb-og-image.jpg">
+    <meta property="og:description" content="Jake's portfolio">
+    <meta property="og:site_name" content="Jake's Portfolio">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <!--    <link rel="stylesheet" media="all" href="css/app.min.css">-->
+  </head>
+  <body>
+    <main class="page">
+      <header class="header js-header" id="header">
+        <div class="header__center center">
+          <a class="header__logo" href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="28" fill="none"><g clip-path="url(#a)"><path d="M1.048 6.67c-.01-.325.352-.528.352-.528L11.477.278c.31-.171.656-.267 1.01-.278a2.15 2.15 0 0 1 .968.226l9.802 5.662s.698.345.707.752c.009.406-.474.644-.474.644l-9.925 5.813a2.873 2.873 0 0 1-1.142.264 2.49 2.49 0 0 1-1.069-.336L1.418 7.204a.752.752 0 0 1-.37-.534Z" fill="#F5C0BE" /><path d="M.304 7.916c.36-.19.82.119.82.119l9.762 5.74c.368.208.686.493.933.836.167.408.253.845.252 1.287v11.49a.62.62 0 0 1-.318.578c-.338.138-.859-.188-.859-.188l-9.716-5.651a2.389 2.389 0 0 1-.77-.682 1.902 1.902 0 0 1-.39-1.151L.003 8.569a.677.677 0 0 1 .3-.653Z" fill="#ADC9FB" /><path d="M13.278 14.533c.236-.35.55-.64.917-.846l9.612-5.603s.607-.384.932-.173c.325.211.255.787.255.787l.008 11.634a2.19 2.19 0 0 1-.302 1.03 2.66 2.66 0 0 1-.72.672l-9.918 5.778c-.219.145-.483.202-.742.16-.43-.07-.386-.687-.386-.687l.005-11.492c-.011-.445.107-.882.34-1.26Z" fill="#4A40EE" /></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h25v28H0z" /></clipPath></defs></svg>
+          </a>
+          <div class="header__social header__social_main">
+            <a class="header__link" href="https://github.com/jakebogan01" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector" d="M8 0C3.582 0 0 3.63809 0 8.12527C0 11.9326 2.58133 15.1184 6.06133 16C6.024 15.8903 6 15.763 6 15.6052V14.2165C5.67533 14.2165 5.13133 14.2165 4.99467 14.2165C4.44733 14.2165 3.96067 13.9775 3.72467 13.5333C3.46267 13.0397 3.41733 12.2847 2.768 11.8229C2.57533 11.6692 2.722 11.4939 2.944 11.5176C3.354 11.6354 3.694 11.9211 4.014 12.345C4.33267 12.7695 4.48267 12.8657 5.078 12.8657C5.36667 12.8657 5.79867 12.8488 6.20533 12.7837C6.424 12.2197 6.802 11.7004 7.264 11.4553C4.6 11.177 3.32867 9.83089 3.32867 8.00339C3.32867 7.21659 3.65867 6.45552 4.21933 5.8143C4.03533 5.17783 3.804 3.87981 4.29 3.38553C5.48867 3.38553 6.21333 4.17503 6.38733 4.38832C6.98467 4.18045 7.64067 4.06263 8.33 4.06263C9.02067 4.06263 9.67933 4.18045 10.278 4.38967C10.45 4.17774 11.1753 3.38553 12.3767 3.38553C12.8647 3.88049 12.6307 5.18392 12.4447 5.81904C13.002 6.45891 13.33 7.21794 13.33 8.00339C13.33 9.82954 12.0607 11.1749 9.40067 11.4546C10.1327 11.8426 10.6667 12.9327 10.6667 13.754V15.6052C10.6667 15.6757 10.6513 15.7265 10.6433 15.7867C13.7607 14.6769 16 11.6706 16 8.12527C16 3.63809 12.418 0 8 0Z" fill="#9F9FA9"/></svg>
+              GitHub
+            </a>
+            <a class="header__link" href="https://www.linkedin.com/in/theron-bogan-574b98209/" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector" d="M8 0C3.582 0 0 3.582 0 8C0 12.418 3.582 16 8 16C12.418 16 16 12.418 16 8C16 3.582 12.418 0 8 0ZM4.99733 3.602C5.55867 3.602 5.93267 3.976 5.93267 4.47467C5.93267 4.97333 5.55867 5.34733 4.93533 5.34733C4.374 5.348 4 4.97333 4 4.47467C4 3.976 4.374 3.602 4.99733 3.602ZM6 11.3333H4V6H6V11.3333ZM12.6667 11.3333H10.784V8.41867C10.784 7.61267 10.282 7.42667 10.094 7.42667C9.906 7.42667 9.278 7.55067 9.278 8.41867C9.278 8.54267 9.278 11.3333 9.278 11.3333H7.33333V6H9.27867V6.744C9.52933 6.31 10.0313 6 10.9727 6C11.914 6 12.6667 6.744 12.6667 8.41867V11.3333Z" fill="#9F9FA9"/></svg>
+              Linkedin
+            </a>
+          </div>
+          <button class="header__burger js-header-burger header__burger_dark"></button>
+        </div>
+        <div class="header__wrapper js-header-wrapper">
+          <div class="header__preview">
+            <a class="header__logo" href="index.html">
+              <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_16_6)"><path d="M1.04787 6.67017C1.03815 6.34537 1.39985 6.14209 1.39985 6.14209L11.4771 0.278045C11.7872 0.106726 12.133 0.0114715 12.4864 5.01521e-06C12.8223 -0.00145449 13.154 0.075906 13.4551 0.225965L23.2568 5.88785C23.2568 5.88785 23.9555 6.23309 23.9641 6.63965C23.9727 7.04621 23.4896 7.28365 23.4896 7.28365L13.5654 13.097C13.2065 13.2626 12.8179 13.3525 12.4233 13.361C12.0463 13.3318 11.6808 13.2169 11.3541 13.025L1.4179 7.20385C1.32067 7.1483 1.23699 7.07155 1.17297 6.97921C1.10894 6.88688 1.0662 6.78129 1.04787 6.67017V6.67017Z" fill="#F5C0BE"/><path d="M0.304194 7.91617C0.66367 7.72605 1.12371 8.03461 1.12371 8.03461L10.8865 13.7752C11.2538 13.9826 11.572 14.268 11.8191 14.6115C11.9863 15.0194 12.0719 15.4565 12.0711 15.8979V27.3885C12.078 27.5052 12.0518 27.6215 11.9955 27.7237C11.9393 27.8259 11.8552 27.9098 11.7533 27.9656C11.4149 28.1036 10.894 27.7785 10.894 27.7785L1.1776 22.1267C0.875266 21.9582 0.612887 21.7255 0.408647 21.4447C0.156012 21.1148 0.0184226 20.7102 0.0172236 20.2936L0.00361134 8.56857C-0.0127683 8.44229 0.00678941 8.31393 0.060006 8.19842C0.113223 8.08292 0.197907 7.98503 0.304194 7.91617V7.91617Z" fill="white"/><path d="M13.2781 14.5328C13.5144 14.1829 13.8283 13.8932 14.1949 13.6867L23.8068 8.08388C23.8068 8.08388 24.4141 7.70028 24.7389 7.91112C25.0636 8.12196 24.9939 8.69764 24.9939 8.69764L25.0017 20.3319C24.9879 20.6952 24.8841 21.0493 24.6997 21.3618C24.5033 21.629 24.259 21.8569 23.9796 22.0338L14.0621 27.8124C13.843 27.9567 13.5786 28.0139 13.3201 27.9728C12.89 27.9023 12.9339 27.2849 12.9339 27.2849L12.9387 15.7926C12.9278 15.3483 13.0458 14.9105 13.2781 14.5328V14.5328Z" fill="#4A40EE"/></g><defs><clipPath id="clip0_16_6"><rect width="25" height="28" fill="white"/></clipPath></defs></svg>
+            </a>
+            <div class="header__img">
+              <img class="header__pic" src="img/content/bg-header.png" alt=""/>
+            </div>
+          </div>
+          <div class="header__center center">
+            <div class="header__contacts">
+              <a class="header__line" href="mailto:jakebogan01@gmail.com">
+                <div class="header__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" fill="none" viewBox="0 0 18 15"><path fill-rule="evenodd" d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z" fill="#4c40f7"></path></svg>
+                </div>
+                <div class="header__text">
+                  jakebogan01@gmail.com
+                </div>
+              </a>
+              <div class="header__line">
+                <div class="header__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18"><path fill-rule="evenodd" d="M9.273.85a.71.71 0 0 0-.901 0L.55 7.25a.71.71 0 0 0 .901 1.101l7.372-6.032 5.85 4.786a.71.71 0 1 0 .901-1.101L9.273.85zM3.845 9.222a.71.71 0 1 0-1.422 0v7.111a.71.71 0 0 0 .711.711h6.4a.71.71 0 1 0 0-1.422H3.845v-6.4zm9.932 0a2.04 2.04 0 0 0-2.11 2.008c.001.243.112.6.358 1.053.239.44.567.901.908 1.328l.867.996.867-.996c.341-.427.669-.887.908-1.328.246-.453.357-.81.358-1.053a2.04 2.04 0 0 0-2.11-2.008h-.047zm2.868 2.004h.711c0 .599-.245 1.21-.531 1.736-.294.542-.678 1.075-1.047 1.537l-1.018 1.163-.336.344-.096.095-.027.026-.007.007-.003.003-.491-.514-.491.514-.003-.003-.007-.007-.026-.026-.096-.095-.336-.344-1.017-1.163c-.37-.462-.753-.995-1.047-1.537-.286-.526-.531-1.138-.531-1.736v-.01c.012-.931.399-1.817 1.072-2.46.668-.637 1.561-.981 2.483-.957.922-.024 1.816.32 2.483.957.673.643 1.06 1.529 1.072 2.46l-.711.01zm-3.335 4.911c0 0 0 0 .491-.514l.491.514a.71.71 0 0 1-.982 0zm.491-4.07a.71.71 0 1 0 0-1.422.71.71 0 1 0 0 1.422z" fill="#4c40f7"></path></svg>
+                </div>
+                <div class="header__text">
+                  <p>Virginia Beach, VA</p>
+                </div>
+              </div>
+              <a class="header__line" href="tel:7578183089">
+                <div class="header__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18"><path fill-rule="evenodd" d="M6.689 2.978a.71.71 0 0 1 .711-.711h7.111a.71.71 0 0 1 .711.711v4.267a.71.71 0 0 1-.711.711H8.822a.71.71 0 0 0-.318.075l-1.815.908V2.978zM7.4.844c-1.178 0-2.133.955-2.133 2.133v7.111a.71.71 0 0 0 1.029.636L8.99 9.378h5.521c1.178 0 2.133-.955 2.133-2.133V2.978c0-1.178-.955-2.133-2.133-2.133H7.4zM2.422 2.267C1.244 2.267.289 3.222.289 4.4v11.378c0 1.178.955 2.133 2.133 2.133h7.822c1.178 0 2.133-.955 2.133-2.133V10.8a.71.71 0 1 0-1.422 0v4.978a.71.71 0 0 1-.711.711H2.422a.71.71 0 0 1-.711-.711V4.4a.71.71 0 0 1 .711-.711h1.422a.71.71 0 1 0 0-1.422H2.422z" fill="#4c40f7"></path></svg>
+                </div>
+                <div class="header__text">
+                  757 818 3089
+                </div>
+              </a>
+            </div>
+            <nav class="header__nav">
+              <a class="header__item js-header-about" href="#overview">
+                <span>Overview</span>
+              </a>
+              <a class="header__item js-header-skills" href="#discover">
+                <span>Discover</span>
+              </a>
+              <a class="header__item js-header-projects" href="#projects">
+                <span>Projects</span>
+              </a>
+              <a class="header__item js-header-contact" href="#contact">
+                <span>Contact</span>
+              </a>
+            </nav>
+            <div class="header__social header__social_inner">
+              <a class="header__link" href="https://github.com/jakebogan01" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector" d="M8 0C3.582 0 0 3.63809 0 8.12527C0 11.9326 2.58133 15.1184 6.06133 16C6.024 15.8903 6 15.763 6 15.6052V14.2165C5.67533 14.2165 5.13133 14.2165 4.99467 14.2165C4.44733 14.2165 3.96067 13.9775 3.72467 13.5333C3.46267 13.0397 3.41733 12.2847 2.768 11.8229C2.57533 11.6692 2.722 11.4939 2.944 11.5176C3.354 11.6354 3.694 11.9211 4.014 12.345C4.33267 12.7695 4.48267 12.8657 5.078 12.8657C5.36667 12.8657 5.79867 12.8488 6.20533 12.7837C6.424 12.2197 6.802 11.7004 7.264 11.4553C4.6 11.177 3.32867 9.83089 3.32867 8.00339C3.32867 7.21659 3.65867 6.45552 4.21933 5.8143C4.03533 5.17783 3.804 3.87981 4.29 3.38553C5.48867 3.38553 6.21333 4.17503 6.38733 4.38832C6.98467 4.18045 7.64067 4.06263 8.33 4.06263C9.02067 4.06263 9.67933 4.18045 10.278 4.38967C10.45 4.17774 11.1753 3.38553 12.3767 3.38553C12.8647 3.88049 12.6307 5.18392 12.4447 5.81904C13.002 6.45891 13.33 7.21794 13.33 8.00339C13.33 9.82954 12.0607 11.1749 9.40067 11.4546C10.1327 11.8426 10.6667 12.9327 10.6667 13.754V15.6052C10.6667 15.6757 10.6513 15.7265 10.6433 15.7867C13.7607 14.6769 16 11.6706 16 8.12527C16 3.63809 12.418 0 8 0Z" fill="#9F9FA9"/></svg>
+                GitHub
+              </a>
+              <a class="header__link" href="https://www.linkedin.com/in/theron-bogan-574b98209/" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector" d="M8 0C3.582 0 0 3.582 0 8C0 12.418 3.582 16 8 16C12.418 16 16 12.418 16 8C16 3.582 12.418 0 8 0ZM4.99733 3.602C5.55867 3.602 5.93267 3.976 5.93267 4.47467C5.93267 4.97333 5.55867 5.34733 4.93533 5.34733C4.374 5.348 4 4.97333 4 4.47467C4 3.976 4.374 3.602 4.99733 3.602ZM6 11.3333H4V6H6V11.3333ZM12.6667 11.3333H10.784V8.41867C10.784 7.61267 10.282 7.42667 10.094 7.42667C9.906 7.42667 9.278 7.55067 9.278 8.41867C9.278 8.54267 9.278 11.3333 9.278 11.3333H7.33333V6H9.27867V6.744C9.52933 6.31 10.0313 6 10.9727 6C11.914 6 12.6667 6.744 12.6667 8.41867V11.3333Z" fill="#9F9FA9"/></svg>
+                Linkedin
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="product">
+        <div class="product__head">
+          <div class="product__center center">
+            <div class="product__wrap">
+              <div class="product__stage stage" data-aos="animation-scale-y">
+                Featured Project
+              </div>
+              <h1 class="product__title title h1" data-aos="animation-scale-y" data-aos-delay="150">
+                Custom CMS Dashboard.
+              </h1>
+              <div class="product__info h5" data-aos="animation-scale-y" data-aos-delay="300">
+                An awesome portfolio theme built from the ground up
+              </div>
+            </div>
+            <div class="product__box product__box_show" data-aos="animation-translate-y">
+              <div class="product__category">
+                Technologies used
+              </div>
+              <ul class="product__list">
+                <li>Tailwind</li>
+                <li>Alpine</li>
+                <li>Livewire</li>
+                <li>Laravel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="product__bg" style="background-image: url('img/content/custom-cms.jpg')"></div>
+        <div class="product__body" id="overview">
+          <div class="product__center center">
+            <div class="product__box product__box_hide" data-aos="animation-scale-y">
+              <div class="product__category">
+                Technologies used
+              </div>
+              <ul class="product__list">
+                <li>Tailwind</li>
+                <li>Alpine</li>
+                <li>Livewire</li>
+                <li>Laravel</li>
+              </ul>
+            </div>
+            <div class="product__row">
+              <div class="product__overview h4" data-aos="animation-scale-y">
+                Overview
+              </div>
+              <div class="product__content content" data-aos="animation-scale-y" data-aos-delay="200">
+                <p>Meet Collab, a fully-featured landing page kit including code, design files, and beautiful 3D illustrations editable in Figma.</p>
+                <p>This package includes a responsive and fully animated landing page template with 24 sections. We've intentionally added a lot of different content to maximize the number of layout options. Drag, drop and mix different parts to quickly build your landing page in a matter of minutes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="discover" id="discover">
+        <div class="discover__center center">
+          <h2 class="discover__title h1" data-aos="animation-scale-y">
+            Discover.
+          </h2>
+          <div class="discover__row">
+            <div class="discover__item" data-aos="animation-scale-y">
+              <div class="discover__category h5">
+                Highlights.
+              </div>
+              <ul class="discover__list">
+                <li>Fully Responsive (Valid HTML5 & CSS3)</li>
+                <li>1 Long Scrolling Page (6 Sections)</li>
+                <li>Contains a contact form</li>
+              </ul>
+            </div>
+            <div class="discover__item" data-aos="animation-scale-y" data-aos-delay="200">
+              <div class="discover__category h5">
+                Features.
+              </div>
+              <ul class="discover__list">
+                <li>Housed up to 10 timeline slots</li>
+                <li>Showcases up to 6 projects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="discover__circles"></div>
+        <div class="figures">
+          <div class="figures__preview">
+            <img class="figures__pic" src="img/content/figures-1.png" alt=""/>
+          </div>
+          <div class="figures__preview">
+            <img class="figures__pic js-parallax" data-scale="1.6" data-orientation="up" src="img/content/figures-2.png" alt=""/>
+          </div>
+          <div class="figures__preview">
+            <img class="figures__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/content/figures-3.png" alt=""/>
+          </div>
+          <div class="figures__preview">
+            <img class="figures__pic" src="img/content/figures-4.png" alt=""/>
+          </div>
+          <div class="figures__preview">
+            <img class="figures__pic js-parallax" data-scale="2.3" data-orientation="down" src="img/content/figures-5.png" alt=""/>
+          </div>
+          <div class="figures__preview">
+            <img class="figures__pic js-parallax" data-scale="2" data-orientation="up" src="img/content/figures-6.png" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper wrapper_gradient" id="projects">
+        <div class="cases cases_other">
+          <div class="cases__center center">
+            <div class="cases__stage stage" data-aos="animation-scale-y">
+              You may also like
+            </div>
+            <h2 class="cases__title h1" data-aos="animation-scale-y" data-aos-delay="200">
+              Check Out My <br>Work.
+            </h2>
+            <div class="cases__container">
+              <div class="cases__slider owl-carousel js-slider-cases">
+                <a class="cases__item" href="custom-theme.html" data-aos="animation-translate-y" data-aos-delay="200">
+                  <div class="cases__preview">
+                    <img class="cases__pic" src="img/content/custom-theme.jpg" alt="">
+                    <div class="cases__box">
+                      View <br>Details
+                    </div>
+                  </div>
+                  <div class="cases__body">
+                    <h4 class="cases__info h4">
+                      Custom Theme
+                    </h4>
+                    <div class="cases__text">
+                      WordPress & PHP
+                    </div>
+                  </div></a><a class="cases__item" href="game-listings.html" data-aos="animation-translate-y">
+                <div class="cases__preview">
+                  <img class="cases__pic" src="img/content/game-listings.jpg" alt="">
+                  <div class="cases__box">
+                    View <br>Details
+                  </div>
+                </div>
+                <div class="cases__body">
+                  <h4 class="cases__info h4">
+                    Game Listings
+                  </h4>
+                  <div class="cases__text">
+                    Laravel & Tailwind
+                  </div>
+                </div>
+              </a>
+                <a class="cases__item" href="live-chat-app.html" data-aos="animation-translate-y">
+                  <div class="cases__preview">
+                    <img class="cases__pic" src="img/content/live-chat.jpg" alt="">
+                    <div class="cases__box">
+                      View <br>Details
+                    </div>
+                  </div>
+                  <div class="cases__body">
+                    <h4 class="cases__info h4">
+                      Live Chat App
+                    </h4>
+                    <div class="cases__text">
+                      Vue JS, SASS & Google Firebase
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="cases__figures">
+            <div class="cases__figure">
+              <img class="cases__pic js-parallax" data-scale="1.6" data-orientation="up" src="img/content/figure-2.png" alt="">
+            </div>
+            <div class="cases__figure">
+              <img class="cases__pic js-parallax" data-scale="1.4" data-orientation="down" src="img/content/figure-3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="wrapper wrapper_dark">
+          <div class="contacts">
+            <div class="contacts__center center">
+              <div class="contacts__container">
+                <div class="contacts__wrap" id="contact">
+                  <div class="contacts__stage stage" data-aos="animation-scale-y">
+                    Say hi 👋
+                  </div>
+                  <h2 class="contacts__title h1" data-aos="animation-scale-y" data-aos-delay="200">
+                    Let’s Get <br>Together.
+                  </h2>
+                  <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">
+                    I’d love to get in touch and discuss your ideas, and potential collaboration.
+                  </div>
+                </div>
+                <div class="contacts__row">
+                  <div class="contacts__details" data-aos="animation-translate-y">
+                    <a class="contacts__line" href="mailto:jakebogan01@gmail.com">
+                      <div class="contacts__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" fill="none" viewBox="0 0 18 15"><path fill-rule="evenodd" d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z" fill="#4c40f7"></path></svg>
+                      </div>
+                      <div class="contacts__text">
+                        jakebogan01@gmail.com
+                      </div>
+                    </a>
+                    <div class="contacts__line">
+                      <div class="contacts__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18"><path fill-rule="evenodd" d="M9.273.85a.71.71 0 0 0-.901 0L.55 7.25a.71.71 0 0 0 .901 1.101l7.372-6.032 5.85 4.786a.71.71 0 1 0 .901-1.101L9.273.85zM3.845 9.222a.71.71 0 1 0-1.422 0v7.111a.71.71 0 0 0 .711.711h6.4a.71.71 0 1 0 0-1.422H3.845v-6.4zm9.932 0a2.04 2.04 0 0 0-2.11 2.008c.001.243.112.6.358 1.053.239.44.567.901.908 1.328l.867.996.867-.996c.341-.427.669-.887.908-1.328.246-.453.357-.81.358-1.053a2.04 2.04 0 0 0-2.11-2.008h-.047zm2.868 2.004h.711c0 .599-.245 1.21-.531 1.736-.294.542-.678 1.075-1.047 1.537l-1.018 1.163-.336.344-.096.095-.027.026-.007.007-.003.003-.491-.514-.491.514-.003-.003-.007-.007-.026-.026-.096-.095-.336-.344-1.017-1.163c-.37-.462-.753-.995-1.047-1.537-.286-.526-.531-1.138-.531-1.736v-.01c.012-.931.399-1.817 1.072-2.46.668-.637 1.561-.981 2.483-.957.922-.024 1.816.32 2.483.957.673.643 1.06 1.529 1.072 2.46l-.711.01zm-3.335 4.911c0 0 0 0 .491-.514l.491.514a.71.71 0 0 1-.982 0zm.491-4.07a.71.71 0 1 0 0-1.422.71.71 0 1 0 0 1.422z" fill="#4c40f7"></path></svg>
+                      </div>
+                      <div class="contacts__text">
+                        <p>Virginia Beach, VA</p>
+                      </div>
+                    </div>
+                    <a class="contacts__line" href="tel:7578183089">
+                      <div class="contacts__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18"><path fill-rule="evenodd" d="M6.689 2.978a.71.71 0 0 1 .711-.711h7.111a.71.71 0 0 1 .711.711v4.267a.71.71 0 0 1-.711.711H8.822a.71.71 0 0 0-.318.075l-1.815.908V2.978zM7.4.844c-1.178 0-2.133.955-2.133 2.133v7.111a.71.71 0 0 0 1.029.636L8.99 9.378h5.521c1.178 0 2.133-.955 2.133-2.133V2.978c0-1.178-.955-2.133-2.133-2.133H7.4zM2.422 2.267C1.244 2.267.289 3.222.289 4.4v11.378c0 1.178.955 2.133 2.133 2.133h7.822c1.178 0 2.133-.955 2.133-2.133V10.8a.71.71 0 1 0-1.422 0v4.978a.71.71 0 0 1-.711.711H2.422a.71.71 0 0 1-.711-.711V4.4a.71.71 0 0 1 .711-.711h1.422a.71.71 0 1 0 0-1.422H2.422z" fill="#4c40f7"></path></svg>
+                      </div>
+                      <div class="contacts__text">
+                        757 818 3089
+                      </div>
+                    </a>
+                  </div>
+                  <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200" id="form">
+                    <div class="contacts__field field">
+                      <div class="field__wrap">
+                        <label for="name" class="field__label">Name</label>
+                        <input class="field__input" type="text" name="name" id="name" placeholder="Name" spellcheck="true" required/>
+                        <div class="field__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18"><path fill-rule="evenodd" d="M8.5.875a4.5 4.5 0 0 0-4.5 4.5v2a4.5 4.5 0 1 0 9 0v-2a4.5 4.5 0 0 0-4.5-4.5zM6 5.375a2.5 2.5 0 1 1 5 0v2a2.5 2.5 0 1 1-5 0v-2zM3.547 12.25a1 1 0 0 0-.969-1.75A5 5 0 0 0 0 14.875v2a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1v-2a5 5 0 0 0-2.578-4.375 1 1 0 1 0-.969 1.75A3 3 0 0 1 15 14.875v1H2v-1a3 3 0 0 1 1.547-2.625z" fill="#111029"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contacts__field field">
+                      <div class="field__wrap">
+                        <label for="email" class="field__label">Email</label>
+                        <input class="field__input" type="email" name="email" id="email" placeholder="Email" required/>
+                        <div class="field__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 17 17"><path fill-rule="evenodd" d="M16.707.668a1 1 0 0 1 .238 1.033l-5 14.5a1 1 0 0 1-1.853.093l-3-6.5a1 1 0 0 1 .201-1.126l3-3a1 1 0 0 1 1.414 1.414L9.2 9.589l1.665 3.608 3.52-10.208-10.207 3.52 2.223 1.026a1 1 0 1 1-.838 1.816L1.081 7.283a1 1 0 0 1 .093-1.853l14.5-5a1 1 0 0 1 1.033.238z" fill="#4c40f7"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contacts__field field field_textarea">
+                      <div class="field__wrap">
+                        <label for="message" class="field__label">Message</label>
+                        <textarea class="field__textarea" name="message" id="message" placeholder="Message" spellcheck="true" required></textarea>
+                        <div class="field__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18"><path fill-rule="evenodd" d="M.5 2.875a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3.532l-2.2 2.64a1 1 0 0 1-1.536 0l-2.2-2.64H2.5a2 2 0 0 1-2-2v-10zm15 0h-13v10h4a1 1 0 0 1 .768.36L9 15.313l1.732-2.078a1 1 0 0 1 .768-.36h4v-10zm-12 3a1 1 0 0 1 1-1h9a1 1 0 1 1 0 2h-9a1 1 0 0 1-1-1zm1 3a1 1 0 1 0 0 2h9a1 1 0 1 0 0-2h-9z" fill="#111029"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contacts__btn">
+                      <button class="btn btn_purple" type="submit" id="submit__button">
+                        <span class="btn__text">Let’s Talk</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" fill="none" viewBox="0 0 22 16"><path fill-rule="evenodd" d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z" fill="#fff"></path></svg>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="contacts__category h5">
+                  Let’s connect
+                </div>
+                <div class="contacts__social">
+                  <div class="contacts__box" data-aos="animation-translate-y">
+                    <a class="contacts__link" href="https://www.linkedin.com/in/theron-bogan-574b98209/" target="_blank">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector" d="M8 0C3.582 0 0 3.582 0 8C0 12.418 3.582 16 8 16C12.418 16 16 12.418 16 8C16 3.582 12.418 0 8 0ZM4.99733 3.602C5.55867 3.602 5.93267 3.976 5.93267 4.47467C5.93267 4.97333 5.55867 5.34733 4.93533 5.34733C4.374 5.348 4 4.97333 4 4.47467C4 3.976 4.374 3.602 4.99733 3.602ZM6 11.3333H4V6H6V11.3333ZM12.6667 11.3333H10.784V8.41867C10.784 7.61267 10.282 7.42667 10.094 7.42667C9.906 7.42667 9.278 7.55067 9.278 8.41867C9.278 8.54267 9.278 11.3333 9.278 11.3333H7.33333V6H9.27867V6.744C9.52933 6.31 10.0313 6 10.9727 6C11.914 6 12.6667 6.744 12.6667 8.41867V11.3333Z" fill="#9F9FA9"/></svg>
+                      <div class="contacts__text">
+                        Linkedin
+                      </div>
+                    </a>
+                  </div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="150">
+                    <a class="contacts__link" href="https://github.com/jakebogan01" target="_blank">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector" d="M8 0C3.582 0 0 3.63809 0 8.12527C0 11.9326 2.58133 15.1184 6.06133 16C6.024 15.8903 6 15.763 6 15.6052V14.2165C5.67533 14.2165 5.13133 14.2165 4.99467 14.2165C4.44733 14.2165 3.96067 13.9775 3.72467 13.5333C3.46267 13.0397 3.41733 12.2847 2.768 11.8229C2.57533 11.6692 2.722 11.4939 2.944 11.5176C3.354 11.6354 3.694 11.9211 4.014 12.345C4.33267 12.7695 4.48267 12.8657 5.078 12.8657C5.36667 12.8657 5.79867 12.8488 6.20533 12.7837C6.424 12.2197 6.802 11.7004 7.264 11.4553C4.6 11.177 3.32867 9.83089 3.32867 8.00339C3.32867 7.21659 3.65867 6.45552 4.21933 5.8143C4.03533 5.17783 3.804 3.87981 4.29 3.38553C5.48867 3.38553 6.21333 4.17503 6.38733 4.38832C6.98467 4.18045 7.64067 4.06263 8.33 4.06263C9.02067 4.06263 9.67933 4.18045 10.278 4.38967C10.45 4.17774 11.1753 3.38553 12.3767 3.38553C12.8647 3.88049 12.6307 5.18392 12.4447 5.81904C13.002 6.45891 13.33 7.21794 13.33 8.00339C13.33 9.82954 12.0607 11.1749 9.40067 11.4546C10.1327 11.8426 10.6667 12.9327 10.6667 13.754V15.6052C10.6667 15.6757 10.6513 15.7265 10.6433 15.7867C13.7607 14.6769 16 11.6706 16 8.12527C16 3.63809 12.418 0 8 0Z" fill="#9F9FA9"/></svg>
+                      <div class="contacts__text">
+                        GitHub
+                      </div>
+                    </a>
+                  </div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="300">
+                    <a class="contacts__link" href="https://codepen.io/jake221" target="_blank">
+                      <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.52682 0.957799L8.5 0.94076L8.47319 0.957799L0.473185 6.04113L0.45 6.05586V6.08333V11.9152V11.9426L0.473179 11.9574L8.47318 17.0422L8.5 17.0592L8.52682 17.0422L16.5268 11.9589L16.55 11.9441V11.9167V6.08333V6.05586L16.5268 6.04113L8.52682 0.957799ZM8.5 10.5329L6.32783 9.02712L8.5 7.54564L10.6722 9.02712L8.5 10.5329ZM12.0846 8.04647L9.3119 6.15661V3.35739L14.2876 6.51966L12.0846 8.04647ZM7.6881 6.15661L4.91541 8.04647L2.7124 6.51966L7.6881 3.35739V6.15661ZM2.07381 8.03006L3.49508 9.016L2.07381 9.9843V8.03006ZM2.7204 11.4852L4.90749 9.9952L7.6881 11.9235V14.6426L2.7204 11.4852ZM9.3119 14.6426V11.9235L12.0925 9.9952L14.2796 11.4852L9.3119 14.6426ZM14.9262 9.9843L13.5049 9.016L14.9262 8.03006V9.9843Z" fill="#9F9FA9" stroke="#9F9FA9" stroke-width="0.1"/></svg>
+                      <div class="contacts__text">
+                        CodePen.io
+                      </div>
+                    </a>
+                  </div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="450">
+                    <a class="contacts__link" href="https://dribbble.com/Wisemen221" target="_blank">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.1 8.8C11.5392 8.8 10.9904 8.8492 10.4548 8.9392C11.1884 10.8304 11.7444 12.808 12.1056 14.8532C14.0124 13.7064 15.4064 11.794 15.848 9.5388C14.6912 9.064 13.426 8.8 12.1 8.8ZM8.8092 8.098C8.5952 7.6124 8.368 7.1336 8.1296 6.6616C6.466 7.2684 4.6712 7.6 2.8 7.6C1.8552 7.6 0.9316 7.5108 0.0327999 7.3492C0.0155999 7.5644 0 7.7804 0 8C0 10.162 0.8656 12.1232 2.2644 13.5644C3.6228 10.9732 5.9728 8.9804 8.8092 8.098ZM9.242 6.202C9.5056 6.728 9.7576 7.2608 9.9924 7.8032C10.6752 7.6712 11.3792 7.6 12.1 7.6C13.4664 7.6 14.7748 7.8496 15.9848 8.3032C15.9884 8.2016 16 8.1024 16 8C16 6.008 15.2632 4.1876 14.0544 2.786C12.6896 4.2096 11.0592 5.3744 9.242 6.202ZM3.194 14.38C4.534 15.392 6.1952 16 8 16C9.0564 16 10.0636 15.7892 10.9876 15.4156C10.6336 13.2644 10.0524 11.19 9.2732 9.2136C6.6004 10.0112 4.3976 11.9088 3.194 14.38ZM13.206 1.938C11.8052 0.7336 9.988 0 8 0C7.1276 0 6.2896 0.1452 5.5028 0.4044C6.6988 1.8792 7.7676 3.4608 8.688 5.136C10.3964 4.3672 11.928 3.2756 13.206 1.938ZM0.2208 6.164C1.0584 6.3164 1.9192 6.4 2.8 6.4C4.4692 6.4 6.0716 6.1112 7.5636 5.5868C6.6372 3.92 5.5632 2.3464 4.3532 0.8884C2.2996 1.9456 0.7644 3.8632 0.2208 6.164Z" fill="#9F9FA9"/></svg>
+                      <div class="contacts__text">
+                        Dribbble
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="figures">
+                  <iframe src='https://my.spline.design/untitled-5b37f600bf0407b51502f0833f35adc4/' frameborder='0' class="figures__animation" style="border: none;"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="footer__center center">
+              <div class="footer__body">
+                <a class="footer__logo" href="index.html">
+                  <svg width="41" height="46" viewBox="0 0 41 46" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_11_2)"><path d="M1.71851 10.9581C1.70256 10.4245 2.29575 10.0906 2.29575 10.0906L18.8225 0.456783C19.331 0.175331 19.8981 0.0188406 20.4777 2.7897e-06C21.0286 -0.00239497 21.5725 0.124697 22.0663 0.371222L38.1411 9.67288C38.1411 9.67288 39.287 10.2401 39.3011 10.908C39.3152 11.5759 38.5229 11.966 38.5229 11.966L22.2472 21.5165C21.6587 21.7886 21.0213 21.9362 20.3743 21.9503C19.756 21.9022 19.1565 21.7135 18.6207 21.3983L2.32536 11.8349C2.1659 11.7436 2.02866 11.6175 1.92366 11.4658C1.81867 11.3142 1.74858 11.1407 1.71851 10.9581V10.9581Z" fill="#F5C0BE"/><path d="M0.498879 13.0051C1.08842 12.6928 1.84289 13.1997 1.84289 13.1997L17.8539 22.6306C18.4562 22.9714 18.978 23.4403 19.3833 24.0046C19.6575 24.6747 19.7979 25.3929 19.7966 26.1179V44.9954C19.808 45.1871 19.765 45.3781 19.6727 45.546C19.5804 45.714 19.4425 45.8518 19.2754 45.9434C18.7204 46.1702 17.8662 45.6361 17.8662 45.6361L1.93127 36.351C1.43544 36.0742 1.00514 35.6919 0.670183 35.2305C0.255861 34.6887 0.0302143 34.0239 0.028248 33.3394L0.00592386 14.0769C-0.0209388 13.8695 0.0111359 13.6586 0.0984112 13.4688C0.185686 13.2791 0.324569 13.1183 0.498879 13.0051V13.0051Z" fill="white"/><path d="M21.7761 23.8754C22.1636 23.3004 22.6783 22.8245 23.2796 22.4853L39.0432 13.2807C39.0432 13.2807 40.0391 12.6505 40.5717 12.9968C41.1043 13.3432 40.99 14.289 40.99 14.289L41.0027 33.4024C40.9802 33.9993 40.81 34.581 40.5075 35.0943C40.1853 35.5333 39.7848 35.9077 39.3266 36.1983L23.0618 45.6918C22.7026 45.9289 22.2689 46.0229 21.8449 45.9554C21.1397 45.8395 21.2116 44.8252 21.2116 44.8252L21.2194 25.9449C21.2016 25.2151 21.3951 24.4959 21.7761 23.8754V23.8754Z" fill="#4A40EE"/></g><defs><clipPath id="clip0_11_2"><rect width="41" height="46" fill="white"/></clipPath></defs></svg>
+                </a>
+                <div class="footer__wrap">
+                  <div class="footer__title h1">
+                    Together,
+                  </div>
+                  <div class="footer__info h3">
+                    We Can Accomplish Anything.
+                  </div>
+                </div>
+                <div class="footer__menu">
+                  <a class="footer__link" href="#overview">
+                    Overview
+                  </a>
+                  <a class="footer__link" href="#discover">
+                    Discover
+                  </a>
+                  <a class="footer__link" href="#projects">
+                    Projects
+                  </a>
+                  <a class="footer__link" href="#contact">
+                    Contact
+                  </a>
+                </div>
+              </div>
+              <div class="footer__bottom">
+                <div class="footer__copyright">
+                  By Jake Bogan
+                </div>
+                <a class="footer__scroll" href="#header">
+                  Back to top
+                </a>
+              </div>
+            </div>
+            <div class="footer__bg">
+              <div class="footer__preview">
+                <img class="footer__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/content/footer-cube-1.png" alt=""/>
+              </div>
+              <div class="footer__preview">
+                <img class="footer__pic js-parallax" data-scale="1.8" data-orientation="up" src="img/content/footer-cube-1.png" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cursor"></div>
+    </main>
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/owl.carousel.min.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/lib/simpleParallax.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
