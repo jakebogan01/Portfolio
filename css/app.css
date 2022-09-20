@@ -2568,6 +2568,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   background: radial-gradient(75.22% 75.22% at 20.49% 12.79%, #FFFFFF 0%, rgba(228, 231, 233, 0.502295) 100%); }
   @media only screen and (max-width: 767px) {
     .wrapper_gradient {
+      padding-top: 48px;
       background: none; } }
 
 .wrapper_dark {
@@ -3481,7 +3482,11 @@ body:not(.touch-device) .owl-item:hover .details__preview {
       .footer:after {
         top: 201px;
         width: 376px;
-        height: 376px; } }
+        height: 376px; }
+      .footer__bg {
+        display: none;
+      }
+  }
   .footer__center {
     position: relative;
     z-index: 3; }
