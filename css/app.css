@@ -3776,7 +3776,13 @@ body:not(.touch-device) .owl-item:hover .details__preview {
       height: 900px; } }
   @media only screen and (max-width: 767px) {
     .product__bg {
-      height: 768px; } }
+      height: 768px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-attachment: inherit;
+    }
+  }
   @media only screen and (max-width: 767px) {
     .product__bg {
       height: 320px; } }
