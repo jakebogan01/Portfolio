@@ -396,7 +396,7 @@
                   </div>
                 </div>
                 <div class="figures">
-                  <iframe src='https://my.spline.design/untitled-5b37f600bf0407b51502f0833f35adc4/' frameborder='0' class="figures__animation" style="border: none;" loading="eager"></iframe>
+                  <canvas id="figuresAnimation" class="figures__animation"></canvas>
                 </div>
               </div>
             </div>
@@ -460,6 +460,13 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
       emailjs.init('user_3b3cBUCV3GsGHDxqSPZYc')
+    </script>
+    <script type="module">
+      import { Application } from './js/lib/runtime.js';
+
+      const figuresAnimation = document.getElementById('figuresAnimation');
+      const app3 = new Application(figuresAnimation);
+      app3.load('./js/figures-animation.splinecode');
     </script>
   </body>
 </html>
