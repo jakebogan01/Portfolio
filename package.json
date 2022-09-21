@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "browser-sync start --server --files \"css/*.css, *.html\"",
-    "build": "css-minify -f app.css"
+    "build": "css-minify -f css/app.css"
   },
   "repository": {
     "type": "git",

@@ -1855,8 +1855,11 @@ a.btn {
     font-size: 0;
     pointer-events: none; }
   @media only screen and (max-width: 767px) {
-    .main .scroll {
-      font-size: 0; } }
+    .main .scroll, .work .scroll, .work__pic {
+      font-size: 0;
+      display: none;
+    }
+  }
 
 .scroll {
   display: inline-flex;
